@@ -1,0 +1,22 @@
+XTerm*background:  #1e1e1e
+XTerm*foreground:  #cccccc
+
+Xcursor.size:12
+XTerm*cursorColor: #ffffff
+XTerm*highlightColor: #444444
+XTerm*color0:  #1e1e1e
+XTerm*color1:  #f2777a
+XTerm*color2:  #99cc99
+XTerm*color3:  #ffcc66
+XTerm*color4:  #6699cc
+XTerm*color5:  #cc99cc
+XTerm*color6:  #66cccc
+XTerm*color7:  #d3d0c8
+XTerm*color8:  #747369
+XTerm*color9:  #f2777a
+XTerm*color10: #99cc99
+XTerm*color11: #ffcc66
+XTerm*color12: #6699cc
+XTerm*color13: #cc99cc
+XTerm*color14: #66cccc
+XTerm*color15: #f2f0ec
