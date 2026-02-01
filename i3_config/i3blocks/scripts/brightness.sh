@@ -1,6 +1,11 @@
 #!/bin/bash
 
 MAX=$(brightnessctl max)
+
+if [ -z "$MAX" ]; then
+	exit 0
+fi
+
 NOW=$(brightnessctl get)
 MIN=$(( MAX / 20 ))
 

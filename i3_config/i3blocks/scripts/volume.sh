@@ -10,4 +10,10 @@ if [ "$BLOCK_BUTTON" = "3" ]; then
 	wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05-
 fi
 
-echo "Volume: $VOL%"
+if [ "$VOL" = "0" ]; then
+	echo "Volume: M"
+	echo ""
+	echo "#00FF00"
+else
+	echo "Volume: $VOL%"
+fi

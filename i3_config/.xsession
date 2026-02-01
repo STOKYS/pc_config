@@ -7,3 +7,4 @@ xrandr --output DP-0 --mode 1920x1080 --rate 144.00 --pos 0x0
 
 setxkbmap -layout "us,cz(qwerty)" -option "grp:alt_shift_toggle"
 
+exec i3

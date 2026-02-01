@@ -32,7 +32,7 @@ echo -e "${RESET}"
 
 echo "Copying config files."
 cd i3_config
-cp -t ~/ .xinitrc .xprofile .Xresources
+cp -t ~/ .xinitrc .Xresources .xsession
 cd ..
 
 cp -R i3_config/i3blocks/ ~/.config/

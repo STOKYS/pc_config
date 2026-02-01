@@ -1,24 +1,22 @@
 [keyboard]
 command=~/.config/i3blocks/scripts/keyboard.sh
 interval=1
-color=#00FF00
 
 [volume]
 command=~/.config/i3blocks/scripts/volume.sh
 interval=1
 clickable=1
 signal=1
-color=#BB5555
-
-[battery]
-command=~/.config/i3blocks/scripts/battery.sh
-interval=1
 
 [brightness]
 command=~/.config/i3blocks/scripts/brightness.sh
 interval=1
 clickable=1
 signal=2
+
+[battery]
+command=~/.config/i3blocks/scripts/battery.sh
+interval=1
 
 [date]
 command=~/.config/i3blocks/scripts/datetime.sh
